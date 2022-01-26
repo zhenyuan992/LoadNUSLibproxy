@@ -1,0 +1,14 @@
+{
+  "name": "Load NUS Libproxy",
+  "action": {},
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Turns Paywalled journal articles into NUS Libproxy. This chrome extension is simply an alternative to using the NUS Libproxy bookmark. The creator is not affiliated with NUS Libraries. No data of user is stored in the extension. Report issues & Source code: https://github.com/zhenyuan992/LoadNUSLibproxy",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
