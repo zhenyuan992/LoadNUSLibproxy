@@ -3,8 +3,5 @@ function loadNUSLibproxy() {
 }
 
 chrome.action.onClicked.addListener((tab) => {
-  chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    function: loadNUSLibproxy
-  });
+	chrome.tabs.update(tab.id,{url:'http://libproxy1.nus.edu.sg/login?url='+tab.url});
 });
