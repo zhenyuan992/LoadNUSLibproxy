@@ -1,11 +1,10 @@
 {
   "name": "Load NUS Libproxy",
   "manifest_version": 3,
-  "version": "1.7",
+  "version": "1.2",
   "description": "Turns Paywalled journal articles into NUS Libproxy. This is simply an alternative to the NUS Libproxy bookmark.",
   "permissions": [
-  "activeTab",
-    "scripting"
+  "tabs"
   ],
   "action": {
     "default_icon": {
